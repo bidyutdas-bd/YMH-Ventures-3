@@ -615,7 +615,7 @@ ul.number li,ul.arrow li,ul.star li,ul.heart li{font-size:14px;color:#8b8b8b;lin
 .primary .post:last-child{ border-bottom: 0px;}
 
 .post-anim{opacity:0; -moz-transform: scale(0.3); -ms-transform: scale(0.3); -webkit-transform: scale(0.3); -o-transform: scale(0.3); transform: scale(0.3); 	 -webkit-transition:all linear .4s; -moz-transition:all linear .4s; -ms-transition:all linear .4s; -o-transition:all linear .4s; transition:all linear .4s;}
-.post-anim.vis{opacity:1;t -moz-transform: scale(1); -ms-transform: scale(1); -webkit-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+.post-anim.vis{opacity:1;-moz-transform: scale(1); -ms-transform: scale(1); -webkit-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
 .video_container,.post_video,.post_slider ul.slides{height:500px;}
 
 /**************************** Scene 1 **************************/
