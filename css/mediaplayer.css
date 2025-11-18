@@ -89,4 +89,4 @@ height: 50px;}
 .no-svg .mejs-overlay-button{background-image:url(bigplay.png);}
 .without_sidebar .mejs-controls .mejs-time-rail span{max-width:100%;}
 .without_sidebar .mejs-controls div.mejs-time-rail{max-width:490px;}
-100%{background-position:30px 0;}
+/* 100%{background-position:30px 0;} */
