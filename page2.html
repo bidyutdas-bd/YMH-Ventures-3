@@ -1,299 +1,710 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>YMH Ventures | Voktis Group</title>
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="stylesheet" type="text/css" href="css/fontello/css/fontello.css">
-        <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
-        <link rel="stylesheet" type="text/css" href="css/mediaplayer.css">
-        <link rel="stylesheet" type="text/css" href="css/responsiveslides.css">
-        <link rel="stylesheet" type="text/css" href="css/responsive.css">
-        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
 
-            <!-- site Favicon -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+    <title>YMH Ventures | Voktis Group </title>
+
+
+
+
+    <!-- SEO Meta Tags -->
+    <meta name="keywords"
+        content="YMH Ventures, innovative projects, IT solutions, digital presence, academy, community initiatives, social media services, technology consultancy, global ventures, educational empowerment, startups support">
+    <meta name="description"
+        content="YMH Ventures leverages technology and innovative solutions to drive growth, empower communities, and support businesses worldwide. Discover our projects and initiatives.">    
+    <meta name="author" content="YMH Ventures">
+    <!-- <meta name="generator" content="Mobirise v3.12.1, mobirise.com"> -->
+    <!-- site Favicon -->
     <link rel="icon" href="assets/img/favicon/new-favicon.png" sizes="32x32">
     <link rel="apple-touch-icon" href="assets/img/favicon/new-favicon.png">
     <meta name="msapplication-TileImage" content="assets/img/favicon/new-favicon.png">
-    </head>
-    <body class="blog-no-sidebar">
-        <div class="body_background"></div>
-        <!--Custom panel -->
-        <!-- <div class="panelbutton"></div>
-        <div class="panel">
-            <div class="columns">
-                <div class="item homepages">
-                    <div class="title">Homepage Style</div>
-                    <ul>
-                        <li><a href="index.html" class="active">rock group</a></li>
-                        <li><a href="ecogroup.html">eco group</a></li>
-                        <li><a href="travelgroup.html">travel group</a></li>
-                    </ul>
+
+    <!-- css Font -->
+
+    <!-- css All Plugins Files -->
+    <link rel="stylesheet" href="assets/css/plugins/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/plugins/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/slick.min.css">
+
+    <!-- Main Style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+</head>
+
+<body>
+
+    <!-- Loader -->
+    <div id="ms-overlay">
+        <div class="ms-roller">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- Header Start -->
+    <header>
+        <nav>
+                <a href="index.html" title="Go to Home" class="ms-sidebar-toggle">
+                <img src="assets/img/favicon/new-favicon.png" class="Home" alt="menu">
+                </a>
+
+
+            <a href="index.html" title="Go to Home" class="ms-sidebar-toggle"><img src="assets/img/favicon/new-favicon.png" class="svg_img"
+                    alt="Home"></a>
+             <!-- Dark mode toggle -->
+            <!-- <div class="theme-toggle">
+            <input type="checkbox" id="toggle-dark">
+            <label for="toggle-dark" class="toggle-label">
+                <span class="sun">☀️</span>
+                <span class="moon">🌙</span>
+            </label>
+            </div> -->
+
+        </nav>
+    </header>
+    <!-- Header End -->
+
+
+
+    <!-- Hero Start -->
+    <section id="home" class="ms-hero margin-b-50">
+        <div class="ms-diamond-1"></div>
+        <div class="ms-diamond-2"></div>
+        <div class="ms-diamond-3"></div>
+        <div class="ms-diamond-4"></div>
+        <div class="ms-diamond-5"></div>
+        <div class="ms-diamond-6"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-item static">
+
+                    <img src="assets/img/hero/logo2.png" alt="Hero Image">
+
+                    <!-- Title appears from left -->
+                    <h2 class="ms-hero-title from-left"><b>Voktis Group</b></h2>
+
+                    <!-- Subtitle appears from right -->
+                    <p class="ms-hero-subtitle from-right"><b>SUPPORT | CONSULTANCY | SECURITY</b></p>
+
+                    <!-- Button appears from bottom -->
+                    <a href="https://voktis.com" class="btn-hero from-bottom">Visit Website</a>
                 </div>
-                <div class="item patterns">
-                    <div class="title">Patterns</div>
-                    <ul>
-                        <li><div class="pattern1"></div></li>
-                        <li><div class="pattern2"></div></li>
-                        <li><div class="pattern3"></div></li>
-                        <li><div class="pattern4"></div></li>
-                        <li><div class="pattern5"></div></li>
-                        <li><div class="pattern6"></div></li>
-                    </ul>
+
+            </div>
+        </div>
+
+        <style>
+        /* Hero Section */
+        .ms-hero {
+            position: relative;
+            padding: 100px 20px;
+            text-align: center;
+            overflow: hidden;
+        }
+
+
+
+        /* Hero content stacking */
+        .hero-item.static {
+            display: flex;
+            align-items: center;    /* center horizontally */
+            justify-content: center;
+            gap: 20px;              /* spacing between elements */
+
+        }
+
+
+
+
+
+        .ms-hero .hero-content .hero-item {
+            flex-direction: column;
+        }
+        /* Hero Logo */
+        .ms-hero-logo img {
+            max-width: 180px;
+            display: block;
+            border-radius: 8px;     /* optional rounded corners */
+        }
+
+        /* Hero Title */
+        .ms-hero-title {
+            font-size: 3rem;
+            color: #0A2C42;
+            margin: 0;
+            text-align: center;
+        }
+
+        /* Hero Subtitle */
+        .ms-hero-subtitle {
+            font-size: 1.5rem;
+            margin: 0;
+            color: #F1AD5B; /* accent color */
+            letter-spacing: 1px;
+            text-align: center;
+        }
+
+        /* Hero Button */
+        .btn-hero {
+            display: inline-block;
+            background: #0A2C42;
+            color: #F1AD5B;
+            border: solid 2px #0A2C42;
+            padding: 12px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+            text-align: center;
+        }
+
+        .btn-hero:hover {
+            background: transparent;
+            border: solid 2px #0A2C42;
+            color: #0A2C42;
+        }
+
+        /* Hero Tagline / Description */
+        .ms-hero-name h3 {
+            font-size: 1.8rem;
+            margin-top: 20px;
+            font-weight: 400;
+            text-align: center;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .ms-hero-title {
+                font-size: 2.2rem;
+            }
+            .ms-hero-subtitle {
+                font-size: 1.2rem;
+            }
+            .ms-hero-logo img {
+                max-width: 140px;
+            }
+        }
+
+        /* From left - further off-screen */
+        .from-left {
+            transform: translateX(-1600px); /* start further left */
+            animation: slideFromLeft 1.2s forwards ease-out;
+        }
+
+        /* From right - further off-screen */
+        .from-right {
+            transform: translateX(1600px); /* start further right */
+            animation: slideFromRight 1s forwards ease-out 0.3s; /* 0.3s delay */
+        }
+
+        /* From bottom remains same */
+        .from-bottom {
+            transform: translateY(250px);
+            animation: slideFromBottom 1s forwards ease-out 0.6s; /* 0.6s delay */
+        }
+
+        /* Keyframes */
+        @keyframes slideFromLeft {
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes slideFromRight {
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes slideFromBottom {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+
+        </style>
+
+
+        <div class="scroll-next" data-scroll="about">
+            <div class="ms-container">
+                <span class="menu">
+                    <span class="text"></span>
+                    <span class="circle"></span>
+                </span>
+            </div>
+        </div>
+    </section>
+    <!-- Hero End -->
+
+    <!-- About section -->
+    <section id="about" class="ms-about padding-tb-80 sec-bg">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>About<span> Us</span></h2>
+                    <span class="ligh-title">About Us</span>
                 </div>
-                <div class="item background">
-                    <div class="title">Background Image</div>
-                    <ul>
-                        <li><div class="background1"></div></li>
-                        <li><div class="background2"></div></li>
-                        <li><div class="background3"></div></li>
-                        <li><div class="background4"></div></li>
-                        <li><div class="background5"></div></li>
-                        <li><div class="background6"></div></li>
-                    </ul>
+                <div class="col-lg-1">
+                    <div class="ms-about-detail m-b-991">
+                        <h4>Who We Are.</h4>
+                        <p class="ms-text">At YMH VENTURES, technology is at the heart of everything we do. From providing cutting-edge IT solutions and nurturing talent worldwide to driving community focused projects, we strive to create ventures that make a difference.
+                            As corporate clients maintaining their reputation and increasing the client awareness using
+                            PR, other print media and online marketing activities.</p>
+                        <p class="ms-text">Our story started in 2013, when we began as a start-up company in a small town, with ambitions to change the way technology is delivered in schools & businesses.  Since then, we have developed into a multi-faceted organisation with multiple ventures, with the aim of empowering and developing young people as future leaders.</p>
+
+                    </div>
                 </div>
-                <div class="item layout">
-                    <div class="title">Layout Style</div>
-                    <div><span id="boxed">boxed</span><span id="wide" class="active">wide</span></div>
+<!-- Mission & Vision Section inside Hero -->
+<div class="about-mv-container ">
+    <div class="about-mission">
+        <h4>Our Mission</h4>
+        <p>At Voktis Group, our mission is to deliver personalized, reliable IT support that empowers businesses through proactive maintenance, secure infrastructure and expert consultancy. We strive to build lasting relationships with our clients by simplifying technology, reducing risk, and creating scalable solutions. We are committed to nurturing talent and offering mentorship opportunities to future IT professionals..</p>
+    </div>
+
+    <div class="about-vision">
+        <h4>Our Vision</h4>
+        <p>We envision Voktis Group as a globally recognized leader in secure, people-focused IT solutions. Our goal is to expand our service footprint far beyond our current operations in the UK, UAE, and Bangladesh, bringing world-class IT support to businesses worldwide. We aim to build a unified global network where technology, security, and reliability operate seamlessly.</p>
+    </div>
+</div>
+<style>
+    /* Mission & Vision Container */
+.about-mv-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 50px;
+    gap: 100px;
+    padding: 20px 50px;
+}
+
+/* Mission Box */
+.about-mission, 
+.about-vision {
+    width: 45%;              /* fixed width ratio */
+    max-width: 550px;        /* prevents stretching on large screens */
+    height: 350px;     
+    flex: 1;
+    /* background: #ffffff; */
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.07);
+    transition: 0.3s ease;
+}
+
+/* Titles */
+.about-mission h4, 
+.about-vision h4 {
+    text-align: center;
+    font-size: 30px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+/* Text */
+.about-mission p, 
+.about-vision p {
+        text-align: center;
+
+    margin-top: 16px;
+    color: #555;
+    font-size: 1rem;
+    line-height: 28px;
+}
+
+/* Hover subtle lift */
+.about-mission:hover,
+.about-vision:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.1);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .about-mv-container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+</style>
+
+            </div>
+        </div>
+    </section>
+    <!-- About section End -->
+
+    <!-- What Voktis DO section -->
+    <section id="experience" class="ms-experience padding-tb-80">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2> Voktis <span> Services</span></h2>
+                    <span class="ligh-title"> Services</span>
+                </div>
+                <div class="what-we-do-container">
+                    <div class="what-we-do-box from-left">Reliable IT support for businesses of all sizes</div>
+                    <div class="what-we-do-box from-right">Expert consultancy to scale operations efficiently</div>
+                    <div class="what-we-do-box from-left">Secure and modern IT infrastructure solutions</div>
+                    <div class="what-we-do-box from-right">Cloud integration and data management services</div>
+                    <div class="what-we-do-box from-left">Remote & On-Site Technical Support</div>
+                    <div class="what-we-do-box from-right">Cybersecurity solutions and compliance support</div>
+
                 </div>
             </div>
-            <div class="close"></div>
-        </div> -->
-        <!--/Custom panel -->
-        <div class="box">
-            <header id="header" class="container small_scene">
-                <div class="main">
-                    <nav class="header">
-                        <ul>
-                            <!-- <li><a href="shortcodes.html">features</a></li>
-                            <li><a href="about.html">about us</a></li> -->
-                            <li class="logo">
-                                <a href="https://voktis.com/" title="Visit Voktis Website">
-                                    <img src="images/logo3.png" alt="">
-                                    <h3>voktis group</h3>
-                                    <h6>SUPPORT | CONSULTANCY | SECURITY</h6>
-                                </a>
-                            </li>
-                            <!-- <li><a href="blog.html">blog</a></li>
-                            <li><a href="gallery.html">portfolio</a></li> -->
-                        </ul>
-                    </nav>
-                    <!-- <nav class="header scroll_menu">
-                        <ul>
-                            <li><a href="shortcodes.html">features</a></li>
-                            <li><a href="about.html">about us</a></li>
-                            <li class="logo">
-                                <a href="index.html">
-                                    <img src="images/logo.png" alt="">
-                                    <h3>IT Solution</h3>
-                                    <h6>IT Support Service in UK, UAE & BD</h6>
-                                </a>
-                            </li>
-                            <li><a href="blog.html">blog</a></li>
-                            <li><a href="gallery.html">portfolio</a></li>
-                        </ul>
-                    </nav> -->
-                    <div id="scene_1">
-                        <img class="item" src="images/scene/a1.png" alt="">
-                        <img class="item" src="images/scene/a2.png" alt="">
-                        <img class="item" src="images/scene/a3.png" alt="">
-                        <img class="item" src="images/scene/a4.png" alt="">
-                        <img class="item" src="images/scene/a5.png" alt="">
-                    </div>
-                    <h4 class="white">IT Service Provider</h4>
-                    <h6 class="white">IT Support Service in UK, UAE & BD</h6>
-                </div>
-            </header>
-
-            <section class="container cornsilk  pad70">
-                <div class="main_middle post-anim">
-                    <!-- <div class="post_date">march 27, 2014</div> -->
-                    <h2 class="post_title marg60-bot">About Voktis</h2>
-                    <div class="custom_text marg60-bot">Voktis is a UK-based IT services company providing reliable technology solutions for modern businesses.
-                                                        It specialises in managed IT support, cybersecurity, cloud services and Microsoft upgrades.
-                                                        Originally known as Techienology Ltd, the company rebranded to Voktis Ltd in November 2022 to reflect its growth.
-                                                        Voktis focuses on delivering secure, efficient and scalable IT systems tailored to each client’s needs.
-                                                        With a customer-centric approach, the company helps organisations strengthen their IT infrastructure and operate with confidence.It specialises in managed IT support, cybersecurity services, cloud infrastructure, Microsoft upgrades and a wide range of operational IT solutions that help businesses remain secure, productive and efficient. <br><br>
-                                                        Originally known as Techienology Ltd, the company underwent a strategic rebrand to Voktis Ltd in November 2022. This transition reflected its expansion, its evolving service portfolio and its long-term vision to serve clients with a stronger and more unified identity. The rebrand also marked an important milestone in the company’s journey toward becoming a trusted technology partner across multiple industries. <br><br>
-                                                        With a customer-centric approach at the core of its operations, Voktis works closely with businesses to strengthen their IT infrastructure, enhance digital resilience and build long-term technical confidence. Its goal is to ensure that every organisation it supports can operate smoothly, minimise downtime and unlock the full potential of modern technology
-                                                    
-                                                    </div>
-                    <!-- <div class="post_social">
-                        <ul>
-                            <li><a href="" class="icon_gmail"></a></li>
-                            <li><a href="" class="icon_facebook"></a></li>
-                            <li><a href="" class="icon_twitter"></a></li>
-                            <li><a href="" class="icon_pinterest"></a></li>
-                            <li><a href="" class="icon_be"></a></li>
-                            <li><a href="" class="icon_dribbble"></a></li>
-                            <li><a href="" class="icon_youtube"></a></li>
-                            <li><a href="" class="icon_vimeo"></a></li>
-                        </ul>
-                    </div> -->
-                </div>
-            </section>
-
-            <section class="container beige pad70">
-                <div class="main">
-                    <div class="post_date">Blog</div>
-                    <h2 class="post_title">Spotlight on Voktis</h2>
-                    <!-- <div class="post_category marg60-bot"><span class="icon icon-tag"></span><a href="">Nature</a>, <a href="">photography</a></div> -->
-                    <div class="post_image marg30-bot"><img src="images/blog/1.webp" alt=""></div>
-                    <div class="post_content marg60-bot">
-                        <p>Leading news sites like Manchester Digital and the Oldham Times are taking notice of Voktis Group, which is quickly becoming a reputable brand in the IT support sector. These attributes not only highlight Voktis's cutting-edge technological solutions but also its robust community engagement, educational collaborations, and calculated international growth. Together, these initiatives are accelerating Voktis's growth from a reputable regional IT company to a reputable, internationally renowned supplier of IT services.</p>
-                    </div>
-                    <div class="post_more marg30-bot"><a href="https://voktis.com/blog/" title="Visit Voktis Blogs">Continue Reading...</a></div>
-                    <!-- <div class="post_comment marg30-bot"><span class="icon icon-comment"></span>5 comments</div> -->
-                    <!-- <div class="post_social">
-                        <ul>
-                            <li><a href="" class="icon_gmail"></a></li>
-                            <li><a href="" class="icon_facebook"></a></li>
-                            <li><a href="" class="icon_twitter"></a></li>
-                            <li><a href="" class="icon_pinterest"></a></li>
-                            <li><a href="" class="icon_be"></a></li>
-                            <li><a href="" class="icon_dribbble"></a></li>
-                            <li><a href="" class="icon_youtube"></a></li>
-                            <li><a href="" class="icon_vimeo"></a></li>
-                        </ul>
-                    </div> -->
-                </div>
-            </section>
-            <section class="container cornsilk pad70">
-                <div class="main post-anim">
-                    <!-- <div class="post_date">march 27,26</div> -->
-                    <h2 class="post_title">Slideshow with Featured images</h2>
-                    <!-- <div class="post_category marg60-bot"><span class="icon icon-tag"></span><a href="">Nature</a>, <a href="">photography</a></div> -->
-                    <div class="slider_container marg30-bot">
-                        <ul class="rslides">
-                            <li><img src="images/blog/36.jpg" alt="" /></li>
-                            <li><img src="images/blog/37.png" alt="" /></li>
-                            <li><img src="images/blog/38.jpg" alt="" /></li>
-                            <li><img src="images/blog/39.jpg" alt="" /></li>
-                            <li><img src="images/blog/40.webp" alt="" /></li>
-                        </ul>
-                    </div>
-                    <div class="post_content marg60-bot">With strong ambitions to be a market leader, supporting growth in our customers, and providing secure solutions, we aim to be the IT company on your journey. We believe in forming relationships in a positive, simple and effective manner and that is how we like to manage our customer’s IT requirements.	</div>
-                    <!-- <div class="post_more marg30-bot"><a href="">Continue Reading...</a></div>
-                    <div class="post_comment marg30-bot"><span class="icon icon-comment"></span>5 comments</div>
-                    <div class="post_social">
-                        <ul>
-                            <li><a href="" class="icon_gmail"></a></li>
-                            <li><a href="" class="icon_facebook"></a></li>
-                            <li><a href="" class="icon_twitter"></a></li>
-                            <li><a href="" class="icon_pinterest"></a></li>
-                            <li><a href="" class="icon_be"></a></li>
-                            <li><a href="" class="icon_dribbble"></a></li>
-                            <li><a href="" class="icon_youtube"></a></li>
-                            <li><a href="" class="icon_vimeo"></a></li>
-                        </ul>
-                    </div>
-                </div> -->
-            </section>
-            <!-- <section class="container cornsilk pad70">
-                <div class="main post-anim">
-                    <div class="post_date">march 27, 2014</div>
-                    <h2 class="post_title">Audio Post</h2>
-                    <div class="post_category marg60-bot"><span class="icon icon-tag"></span><a href="">audio</a>, <a href="">music</a></div>
-                    <audio src="http://www.stephaniequinn.com/Music/Commercial%20DEMO%20-%2013.mp3" width="100%" height="50" class="marg30-bot"></audio>
-                    <div class="post_content marg60-bot">My design ideas for the park involved emphasizing, tweaking, twisting, and extending the existing structure, as well as expanding the park’s tradition of user modification, which allows for adaptation to changing needs.</div>
-                    <div class="post_more marg30-bot"><a href="">Continue Reading...</a></div>
-                    <div class="post_comment marg30-bot"><span class="icon icon-comment"></span>5 comments</div>
-                    <div class="post_social">
-                        <ul>
-                            <li><a href="" class="icon_gmail"></a></li>
-                            <li><a href="" class="icon_facebook"></a></li>
-                            <li><a href="" class="icon_twitter"></a></li>
-                            <li><a href="" class="icon_pinterest"></a></li>
-                            <li><a href="" class="icon_be"></a></li>
-                            <li><a href="" class="icon_dribbble"></a></li>
-                            <li><a href="" class="icon_youtube"></a></li>
-                            <li><a href="" class="icon_vimeo"></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </section> -->
-            <section class="container pad beige pad70">
-                <div class="main_middle post-anim">
-                    <div class="post_date">march 27, 2026</div>
-                    <!-- <h2 class="post_title">Quote Format</h2> -->
-                    <!-- <div class="post_category marg60-bot"><span class="icon icon-tag"></span><a href="">lifestyle</a>, <a href="">world</a></div> -->
-                    <div class="quote_icon  marg30-bot"><span class="icon icon-quote"></span></div>
-                    <div class="quote_content marg30-bot">We believe in forming relationships in a positive, simple and effective manner and that is how we like to manage our customer’s IT requirements.</div>
-                    <div class="quote_author marg30-bot"><img src="images/blog/5.png" alt=""></div>
-                    <div class="quote_author_info marg30-bot">Mohammed Hadi. &nbsp;
-                        Founder & CEO, Voktis Group</div>
-                    <!-- <div class="post_social">
-                        <ul>
-                            <li><a href="" class="icons_linkdin"></a></li>
-                            <li><a href="" class="icon_facebook"></a></li>
-                            <li><a href="" class="icon_twitter"></a></li>
-                            <li><a href="" class="icon_pinterest"></a></li>
-                            <li><a href="" class="icon_be"></a></li>
-                            <li><a href="" class="icon_dribbble"></a></li>
-                            <li><a href="" class="icon_youtube"></a></li>
-                            <li><a href="" class="icon_vimeo"></a></li>
-                        </ul>
-                    </div> -->
-                </div>
-            </section>
-            <section class="container cornsilk pad70">
-                <div class="main post-anim">
-                    <!-- <div class="post_date">march 27, 2014</div> -->
-                    <h2 class="post_title">Grid Type Gallery</h2>
-                    <!-- <div class="post_category marg60-bot"><span class="icon icon-tag"></span><a href="">photography</a>, <a href="">life</a>, <a href="">design</a></div> -->
-                    <ul class="gallery_images marg30-bot">
-                        <li><img src="images/blog/7.jpg" alt=""></li>
-                        <li><img src="images/blog/6.webp" alt=""></li>
-                        <li><img src="images/blog/8.jpg" alt=""></li>
-                        <li><img src="images/blog/9.jpg" alt=""></li>
-                    </ul>
-                    <!-- <div class="post_content marg60-bot">My design ideas for the park involved emphasizing, tweaking, twisting, and extending the existing structure, as well as expanding the park’s tradition of user modification, which allows for adaptation to changing needs.</div> -->
-                    <div class="post_more marg30-bot"><a href="https://voktis.com/">visit website...</a></div>
-                </div>
-            </section>
-
-
-
-            <!-- <section class="container beige  pad70">
-                <div class="main post-anim">
-                    <div class="post_date">march 27, 2014</div>
-                    <h2 class="post_title">Aside Format</h2>
-                    <div class="post_category marg60-bot"><span class="icon icon-tag"></span><a href="">Art</a>, <a href="">Logo</a>, <a href="">Print</a>, <a href="">Icons</a>, <a href="">Resources</a></div>
-                    <div class="aside_content">
-                        <div class="photo"><img src="images/blog/10.jpg" alt=""></div>
-                        <div class="name">Mat Jefferson</div>
-                        <div class="content">Etiam volutpat adipiscing posuere suspendisse pellentesque mauris  aliquam eleifend. Aliquam euismoder ante dictum velit accumsan.<br/>Aenean nulla purus, interdum vel tincidunt sit amet, aliquam vitae velit. Suspendisse euismod lorem luctus vehicula molestie. Curabitur sed aliquam eros.</div>
-                    </div>
-                </div>
-            </section> -->
-
-            <footer class="footer container cadetblue">
-                <div class="main white">
-                    <div class="logo">
-                        <img src="images/logo4.png" alt="">
-                        <h3>voktis group</h3>
-                        <h6>IT Service Provider</h6>
-                    </div>
-                    <div class="content">Copyright © YMH Ventures all rights reserved. Powered by Cr8 Ease </div>
-                    <!-- <div class="social">
-                        <ul>
-                            <li><a href=""><span class="icon-facebook"></span></a></li>
-                            <li><a href=""><span class="icon-twitter"></span></a></li>
-                            <li><a href=""><span class="icon-pinterest"></span></a></li>
-                        </ul>
-                    </div> -->
-                </div>
-            </footer>
         </div>
-        <script type="text/javascript" src="js/jquery.min.js"></script> 
-        <script type="text/javascript" src="js/Chart.min.js"></script> 
-        <script type="text/javascript" src="js/jquery.flexslider.min.js"></script>
-        <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
-        <script type="text/javascript" src="js/mediaelement.min.js"></script>
-        <script type="text/javascript" src="js/responsiveslides.js"></script>
-		<script type="text/javascript" src="js/jquery.cookie.js"></script>
-        <script type="text/javascript" src="js/_front.js"></script>
-    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"dab7be3e6ab04952b40d6c8e93f6cc2a","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+
+        <style>
+        /* Container */
+        .what-we-do-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        /* Boxes */
+        .what-we-do-box {
+            /* background: #ffffff; */
+            padding: 20px 40px;
+            border-radius: 30px;
+            box-shadow: 0px 5px 20px rgba(0,0,0,0.07);
+            max-width: 600px;
+            width: 90%;
+            text-align: center;
+            font-size: 1.1rem;
+            color: #444;
+            line-height: 1.5;
+            opacity: 0; /* hidden initially */
+        }
+
+        /* Left/Right animation triggers */
+        .from-left.in-view {
+            animation: slideFromLeftBox 1s forwards ease-out;
+        }
+
+        .from-right.in-view {
+            animation: slideFromRightBox 1s forwards ease-out;
+        }
+
+        /* Keyframes for scroll-triggered boxes */
+        @keyframes slideFromLeftBox {
+            0% { opacity: 0; transform: translateX(-900px); }
+            100% { opacity: 1; transform: translateX(0); }
+        }
+
+        @keyframes slideFromRightBox {
+            0% { opacity: 0; transform: translateX(900px); }
+            100% { opacity: 1; transform: translateX(0); }
+        }
+
+        /* Hover effect */
+        .what-we-do-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 10px 25px rgba(0,0,0,0.1);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .what-we-do-box {
+                width: 95%;
+                padding: 18px 25px;
+            }
+        }
+        </style>
+
+        <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const boxes = document.querySelectorAll('.what-we-do-box');
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if(entry.isIntersecting) {
+                        entry.target.classList.add('in-view');
+                    } else {
+                        // optional: remove class when out of view if you want repeatable animation
+                        entry.target.classList.remove('in-view');
+                    }
+                });
+            }, { threshold: 0.2 });
+
+            boxes.forEach(box => observer.observe(box));
+        });
+        </script>
+
+    </section>
+    <!-- TO do   Section End-->
+
+
+
+
+<!-- What Gallary section -->
+<section id="experience" class="ms-experience padding-tb-80">
+    <div class="container">
+        <div class="row">
+            <div class="section-title">
+                <h2> Voktis <span> Gallery</span></h2>
+                <span class="ligh-title"> Gallery</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gallery Grid -->
+<section class="scroll-gallery">
+  <div class="gallery-item">
+    <img src="assets/img/gallary/gallery1.jpg" alt="IT technician working on server rack">
+  </div>
+  <div class="gallery-item">
+    <img src="assets/img/gallary/gallery2.jpg" alt="IT support desk">
+  </div>
+  <div class="gallery-item">
+    <img src="assets/img/gallary/gallery3.jpg" alt="Tech support call center">
+  </div>
+  <div class="gallery-item">
+    <img src="assets/img/gallary/gallery4.jpg" alt="Close-up server room">
+  </div>
+  <div class="gallery-item">
+    <img src="assets/img/gallary/gallary5.jpg" alt="Network technology illustration">  <!-- Pixabay image -->
+  </div>
+  <div class="gallery-item">
+    <img src="assets/img/gallary/gallery6.png" alt="Cloud and server network">  <!-- Pixabay image -->
+  </div>
+</section>
+
+
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+      <span class="close">&times;</span>
+      <img class="lightbox-img" src="" alt="">
+      <div class="caption"></div>
+    </div>
+
+<style>
+/* Scroll Gallery */
+.scroll-gallery {
+    max-width: 1200px;
+    margin: 0 auto; /* center the grid */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.gallery-item {
+    width: 300px;
+    overflow: hidden;
+    opacity: 0;                  
+    transform: translateY(50px); 
+    transition: opacity 1s ease-out, transform 1s ease-out; /* slower and smoother */
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.gallery-item img {
+    width: 300px;
+    height: 400px;
+    display: block;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    object-fit: cover;
+}
+
+/* Hover zoom */
+.gallery-item:hover img {
+    transform: scale(1.05);
+}
+
+/* Visible class */
+.gallery-item.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Lightbox */
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.9);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lightbox-img {
+    max-width: 90%;
+    max-height: 80%;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.caption {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 3rem;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+}
+
+@media (max-width: 768px) {
+    .gallery-item {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-item {
+        width: 90%;
+    }
+}
+</style>
+
+<script>
+const items = document.querySelectorAll('.gallery-item');
+
+// Intersection Observer options
+const observerOptions = {
+    root: null, 
+    rootMargin: '0px',
+    threshold: 0.1 
+};
+
+// Observer callback with staggered animation
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        const index = Array.from(items).indexOf(entry.target);
+        if (entry.isIntersecting) {
+            setTimeout(() => {
+                entry.target.classList.add('show');
+            }, index * 150); // stagger: 150ms per item
+        } else {
+            entry.target.classList.remove('show');
+        }
+    });
+}, observerOptions);
+
+items.forEach(item => observer.observe(item));
+
+// Lightbox functionality
+const lightbox = document.getElementById('lightbox');
+const lightboxImg = document.querySelector('.lightbox-img');
+const caption = document.querySelector('.caption');
+const closeBtn = document.querySelector('.close');
+
+items.forEach(img => {
+    img.addEventListener('click', () => {
+        lightbox.style.display = 'flex';
+        lightboxImg.src = img.querySelector('img').src;
+        caption.textContent = img.querySelector('img').alt;
+    });
+});
+
+closeBtn.addEventListener('click', () => {
+    lightbox.style.display = 'none';
+});
+
+// Close lightbox when clicking outside image
+lightbox.addEventListener('click', (e) => {
+    if (e.target === lightbox) {
+        lightbox.style.display = 'none';
+    }
+});
+</script>
+
+</section>
+
+
+
+
+
+
+
+
+
+    <!-- Start Footer -->
+    <footer class="margin-t-80">
+        <div class="container">
+            <div class="ms-footer-detail">
+                <div class="ms-copy">
+                    <!-- Copyright © <a class="site-name" href="index.html">Masterly</a>  -->
+                    Copyright © YMH Ventures all rights reserved. Powered by Cr8 Ease
+                </div>
+                <div class="ms-social">
+                    <ul>
+                        <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"
+                                    aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"
+                                    aria-hidden="true"></i></a></li>
+                        <li><a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin"
+                                    aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+
+
+    <!-- Back to top -->
+    <div class="progress-wrap">
+        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- Back to top -->
+
+    <!-- Vendor JS -->
+                                 <!-- Target blank not working, to open in new tabs we used this script -->
+
+    <script src="assets/js/vendor/jquery-3.1.1.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/vendor/tilt.jquery.js"></script>
+    <script src="assets/js/vendor/mixitup.min.js"></script>
+    <script src="assets/js/vendor/jquery.fancybox.min.js"></script>
+    <script src="assets/js/vendor/slick.min.js"></script>
+    <script src="assets/js/vendor/fontawesome.js"></script>
+
+    <!-- Scroll button animation for mouse hover Js -->
+    <script src="assets/js/vendor/tweenmax.min.js"></script>
+
+    <!-- Site Main Js -->
+    <script src="assets/js/script.js"></script>
+
+
+
+
+
 </body>
+
 </html>
