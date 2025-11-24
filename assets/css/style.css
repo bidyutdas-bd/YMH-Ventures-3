@@ -509,6 +509,14 @@ header nav a {
   cursor: pointer;
   opacity: 0.7;
 }
+
+@media (max-width:1300px) {
+  header nav a{
+      top: 10px;
+  right: 10px;
+  }
+  
+}
 header nav a .svg_img {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -669,7 +677,7 @@ header nav a:hover .svg_img {
   color: #efaa54;
 }
 .ms-hero .hero-content .ms-hero-detail .ms-hero-detail {
-  margin-bottom: 30px;
+  margin-bottom: 5px;
   text-align: right;
   font-size: 16px;
   line-height: 26px;
@@ -696,6 +704,44 @@ filter: invert(100%); */
   filter: grayscale(100%) brightness(300%);
   -webkit-filter: grayscale(100%) brightness(300%);
 }
+/* cr8ease hero need different gray-scale */
+.ms-hero .hero-content .ms-hero-img .ms-card .cr8ease img   {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+  /* -webkit-filter: grayscale(100%);
+          filter: grayscale(100%); */
+/* -webkit-filter: invert(100%);
+filter: invert(100%); */
+  filter: grayscale(100%) brightness(900%);
+  -webkit-filter: grayscale(100%) brightness(900%);
+}
+/* brightemy hero need different gray-scale */
+.ms-hero .hero-content .ms-hero-img .ms-card .brightemy img   {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+  /* -webkit-filter: grayscale(100%);
+          filter: grayscale(100%); */
+/* -webkit-filter: invert(100%);
+filter: invert(100%); */
+filter: grayscale(100%) brightness(50%) contrast(0%);
+-webkit-filter: grayscale(100%) brightness(100%) contrast(40%);
+
+}
+.ms-hero .hero-content .ms-hero-img .ms-card .zaarbit img   {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+  /* -webkit-filter: grayscale(100%);
+          filter: grayscale(100%); */
+/* -webkit-filter: invert(100%);
+filter: invert(100%); */
+filter: grayscale(100%) brightness(70%) contrast(0%);
+-webkit-filter: grayscale(100%) brightness(100%) contrast(50%);
+
+}
+
 .ms-hero .hero-content .ms-hero-img .ms-card:hover {
   -webkit-box-shadow: 0 0 22px 0 rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 22px 0 rgba(0, 0, 0, 0.5);
@@ -732,6 +778,19 @@ filter: invert(100%); */
   bottom: 0;
   left: 0;
 }
+
+@media (max-width:991px) {
+  .ms-hero .hero-content .ms-hero-name h3:after{
+    content: "";
+  width: 105px;
+  height: 7px;
+  background-color: #efaa54;
+  position: static;
+  bottom: 0;
+  left: 0;
+}
+  }
+
 .ms-hero .hero-content .ms-hero-name h3 span {
   max-width: 300px;
   display: -ms-inline-grid;
@@ -875,7 +934,7 @@ filter: invert(100%); */
 
 /*===== About css =====*/
 
-.col-lg-1{ width:100%; padding:0 15px; box-sizing:border-box; margin-bottom:30px;
+.col-lg-1{ width:100%; padding:0 15px; box-sizing:border-box; margin-bottom:0px;
 
 }
 
@@ -1825,7 +1884,12 @@ cursor: default;
 .col-lg-6 { width:50%; padding:0 15px; box-sizing:border-box; margin-bottom:30px; }
 .col-lg-9 { width:33%; padding:0 15px; box-sizing:border-box; margin-bottom:30px; }
 /* .col-lg-8 { width:50%; padding:0 15px; box-sizing:border-box; margin-bottom:30px; } */
-@media(max-width:768px){ .col-lg-6 { width:100%; } }
+@media (max-width:1199px) {.col-lg-9 { width:50%; padding:0 15px; box-sizing:border-box; margin-bottom:30px; }
+ 
+}
+@media(max-width:768px){ .col-lg-6 { width:100%; }
+.col-lg-9 { width:100%; height: auto; padding:0 15px; box-sizing:border-box; margin-bottom:20px; }
+}
 
 .ms-project-box {
     background: rgba(255,255,255,0.25);
@@ -1851,6 +1915,7 @@ cursor: default;
     margin-bottom: 18px;
     position: relative;
 }
+
 
 .portfolio-img a {
     width: 100%;
@@ -1888,7 +1953,34 @@ cursor: default;
 .ms-project-box p { font-size: 14px; color:#555; line-height:1.6; }
 .ms-project-box p a { color:#e3a34b; text-decoration:none; }
 
-@media(max-width:768px){ .portfolio-img a { height:180px; } }
+@media(max-width:768px)
+{ 
+  
+  .portfolio-img 
+   { 
+  min-height: 300px;
+  width: auto;
+  background-position: center;
+  background-size: cover;
+  
+    object-fit: cover;
+    
+
+}
+ }
+
+@media(max-width:575px)
+{ 
+  
+  .portfolio-img 
+   { 
+  min-height: 100%;
+  width: 100%;
+ 
+    
+
+}
+ }
 
 /** End Portfolio Section **/
 /*===== Counter =====*/
@@ -2082,7 +2174,6 @@ cursor: default;
   top: 50%;
   right: -30px;
 }
-
 
 
 
