@@ -107,7 +107,7 @@
                         </div>
                     </div>
                     <!-- button -->
-                     <a href="https://voktis.com" class="btn-hero from-bottom">Visit Website</a>
+                     <a href="https://bridano.com" target="_blank" class="btn-hero from-bottom">Visit Website</a>
                 </div>
                 <div class="art "></div>
             </div>
@@ -121,7 +121,11 @@
             text-align: center;
             overflow: hidden;
         }
-
+        @media (max-width:991px) {
+        .ms-hero{
+            padding: 10px 10px;
+        }   
+        }
 
 
         /* Hero content stacking */
@@ -132,11 +136,9 @@
             gap: 20px;              /* spacing between elements */
 
         }
-        @media (max-width:991px) {
-        .ms-hero{
-            padding: 10px 10px;
-        }   
-        }
+
+
+
 
 
         .ms-hero .hero-content .hero-item {
@@ -826,6 +828,5 @@ lightbox.addEventListener('click', (e) => {
 
 
 </body>
-
 
 </html>
